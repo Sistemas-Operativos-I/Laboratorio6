@@ -56,13 +56,6 @@ Se debe leer todo el archivo para retornar la cantidad de instancias de muestras
 Obtener la media de la variable _validSamples_ contenidas en el archivo.
 
 
-## Criterio de desarrollo
-Dado que este laboratorio propone agregar funcionalidades a un proyecto existente, deben utilizar correctamente el workflow de desarrllo. Es decir:
-- Se debe realizar un fork al proyecto original (laboratorio 4)
-- Se implementan las nuevas funcionalidades
-- Se realiza un Pull Request en un nuevo branch en el repositorio del laboratorio 4.
-
-
 ## Criterios de Corrección
 - Se debe compilar el código con los flags de compilación: -Wall -Pedantic -Werror 
 - Dividir el código en módulos de manera juiciosa.
