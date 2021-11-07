@@ -1,7 +1,6 @@
-# Laboratorio N6
+## Laboratorio N6
 # mmap
 ### SOI - FCEFyN - UNC - 2021
-
 
 ## Objetivo
 
@@ -49,30 +48,12 @@ En  la carpeta _rawdata_ se encuentra el archivo binario llamado _datos_. El arc
 La estructura representa el header de un pulso de radar, con los metadatos que describen al mismo. 
 
 
-#### 2. Pipe
-_myshell_ provee la funcionalidad de un pipe a través del operador **|** (pipe). El mismo conecta la salida estándar del proceso (stdout) lazando por el comando de la izquierda del pipe con la entrada estándar del proceso (stdin) que se genera con el comando a la derecha del pipe.
-
-Ejemplos:
-```
-$ last <username> | wc -l
-$ ps aux | grep firefox
-$ grep bash /etc/passwd | cut -d “:” -f 1 | sort -r
-```
-
-##### Responder:
-¿Dónde se encuentran los pipes en el filesystem, qué atributos tienen?
+#### 2. Instancias
+Se debe leer todo el archivo para retornar la cantidad de instancias de muestras (estructuras) contenidas en el archivo.
 
 
-#### 3. I/O redirection 
-Se debe soportar redirección de entrada/salida en _stdin_ y/o _stdout_. 
-
-Por ejemplo:
-```
-program arg1 ar2 < inputfile > outputfile
-```
-
-Ejecuta la el programa _program_ con los arguments _arg1_, _arg2_. _stdin_ es reemplazado por _inputfile_ y _stdout_ por _outputfile_.
-La redirección debe funcionar para el comando interno _echo_.
+#### 3. validSamples
+Obtener la media de la variable _validSamples_ contenidas en el archivo.
 
 
 ## Criterio de desarrollo
@@ -88,7 +69,7 @@ Dado que este laboratorio propone agregar funcionalidades a un proyecto existent
 - Estilo de código.
 - El código no debe contener errores, ni warnings.
 - El código no debe contener errores de cppcheck.
-- _myshell_ no debe crear procesos zombies.
+
 
 ## Qué se debe Entregar
 - Informe del desarrollo del proyecto (markdown).
@@ -96,7 +77,3 @@ Dado que este laboratorio propone agregar funcionalidades a un proyecto existent
 - Makefile
 - Todo en el GitHub
 
-
-### Links
-- [1] https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide
-- [2] https://www.dataschool.io/how-to-contribute-on-github/
