@@ -45,7 +45,7 @@ En  la carpeta _rawdata_ se encuentra el archivo binario llamado _datos_. El arc
 | RESERVADO   |  | 64 |  |
 
 
-La estructura representa el header de un pulso de radar, con los metadatos que describen al mismo. 
+La estructura fue extraida de la documentación de INVAP y representa el header de un pulso de radar, con los metadatos que describen al mismo. Se debe prestar atención en los tamaños de cada variables.
 
 
 #### 2. Instancias
